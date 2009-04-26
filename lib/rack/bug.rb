@@ -1,4 +1,4 @@
-require "rack"
+require "rack" unless defined?(Rack)
 
 module Rack::Bug
   require "rack/bug/toolbar"
